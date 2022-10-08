@@ -9,5 +9,3 @@ const timeGreeting = (time, name) => {
     return `Доброй ночи, ${name}!`;
   }
 };
-
-console.log(timeGreeting(4, 'Ivan'));
