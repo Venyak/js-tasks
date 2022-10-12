@@ -12,7 +12,6 @@ const multiplyNumeric = (obj) => {
   for (let key in obj) {
     if (obj[key] === Number(obj[key])) {
       obj[key] *= 2;
-      console.log(obj[key]);
     }
   }
 };
