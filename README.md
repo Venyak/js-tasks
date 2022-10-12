@@ -1,2 +1,2 @@
 # js-tasks
- Just learning js
+ Just learning js, solving tasks
