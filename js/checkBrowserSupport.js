@@ -18,7 +18,7 @@
 	}
 */
 
-const browserSupport = (browser) => {
+const checkBrowserSupport = (browser) => {
   let answer;
   if (browser.toLowerCase() === 'edge') {
     answer = "You've got the Edge!";

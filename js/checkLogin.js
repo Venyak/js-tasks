@@ -10,7 +10,7 @@
 	При отмене – «Отменено».
 */
 
-let login = prompt('Кто там?', '');
+let checkLogin = prompt('Кто там?', '');
 
 if (login === 'Админ') {
   let password = prompt('Введите пароль!', '');
