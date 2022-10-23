@@ -37,4 +37,4 @@ const checkBrowserSupport = (browser) => {
   }
 };
 
-console.log(browserSupport('opera'));
+console.log(checkBrowserSupport('opera'));
