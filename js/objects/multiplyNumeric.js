@@ -8,13 +8,16 @@ let menu = {
   title: 'My menu',
 };
 
+console.log(menu);
+
 const multiplyNumeric = (obj) => {
-  for (let key in obj) {
-    if (obj[key] === Number(obj[key])) {
+  for (key in obj) {
+    if (typeof obj[key] == 'number') {
       obj[key] *= 2;
     }
   }
 };
 
 multiplyNumeric(menu);
+
 console.log(menu);
