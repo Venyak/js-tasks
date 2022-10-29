@@ -8,10 +8,14 @@ let salaries = {
   Pete: 130,
 };
 
-let sum = 0;
+const summary = (obj) => {
+  let result = 0;
 
-for (let key in salaries) {
-  sum += salaries[key];
-}
+  for (key in obj) {
+    result += obj[key];
+  }
 
-console.log(sum);
+  return result;
+};
+
+console.log(summary(salaries));
