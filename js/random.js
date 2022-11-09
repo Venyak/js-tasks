@@ -7,7 +7,7 @@ const random = (min, max) => {
 
   do {
     result = Math.random() * 10;
-  } while (!(result > min && result <= max));
+  } while (!(result >= min && result < max));
 
   return result;
 };
